@@ -4,7 +4,7 @@ yarn init
 ```
 Step2
 ```bash
-yarn add express @line/sdk openai ngrok
+yarn add express @line/bot-sdk openai ngrok
 ```
 Step3
 ```js

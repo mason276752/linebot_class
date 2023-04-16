@@ -1,16 +1,16 @@
 ```js
-constexpress = require('express');
-constbotsdk = require('@line/bot-sdk')
+const express = require('express');
+const botsdk = require('@line/bot-sdk')
 
-constapp = express();
+const app = express();
 
-constport = 3000;
+const port = 3000;
 
-const config = {
+const  config = {
     channelAccessToken: "YOUR_ACCESS_TOKEN",
     channelSecret: "YOUR_SECRET_KEY"
 }
-const client = new botsdk.Client(config)
+const  client = new botsdk.Client(config)
 
 app.get('/', (req, res) => {
     res.send('哈囉')

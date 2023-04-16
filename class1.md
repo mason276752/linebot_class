@@ -8,11 +8,11 @@ yarn add express @line/bot-sdk openai ngrok
 ```
 Step3
 ```js
-constexpress = require('express');
+const express = require('express');
 
-constapp = express();
+const app = express();
 
-constport = 3000;
+const port = 3000;
 
 app.listen(port, () => {
     console.log('server start')
@@ -20,11 +20,11 @@ app.listen(port, () => {
 ```
 Step3
 ```js
-constexpress = require('express');
+const express = require('express');
 
-constapp = express();
+const app = express();
 
-constport = 3000;
+const port = 3000;
 
 app.listen(port, () => {
     console.log('server start')
@@ -36,11 +36,11 @@ node index.js
 ```
 Step5
 ```js
-constexpress = require('express');
+const express = require('express');
 
-constapp = express();
+const app = express();
 
-constport = 3000;
+const port = 3000;
 
 app.get('/', (req, res) => {
     res.send('哈囉')

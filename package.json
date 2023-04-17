@@ -1,0 +1,14 @@
+{
+  "name": "linebot_class",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Louis0723/linebot_class",
+  "author": "Louis Tang <louis20201224@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@line/bot-sdk": "^7.5.2",
+    "express": "^4.18.2",
+    "ngrok": "^4.3.3",
+    "openai": "^3.2.1"
+  }
+}

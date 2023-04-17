@@ -11,7 +11,7 @@ Step2
 ```js
 openai.createCompletion({
   model: "text-davinci-003",
-  prompt: "Hello world",
+  prompt: "你是誰？",
 }).then((completion) => {
     console.log(completion.data.choices[0].text);
 });
@@ -20,7 +20,7 @@ Step3
 ```js
  openai.createChatCompletion({
     "model": "gpt-3.5-turbo",
-    "messages": [{"role": "user", "content": "Say this is a test!"}],
+    "messages": [{"role": "user", "content": "你是誰？"}],
     "temperature": 0.7
 }).then((completion) => {
     console.log(completion.data.choices[0].message.content);
